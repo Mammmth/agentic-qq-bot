@@ -1,52 +1,114 @@
-# Python related
-__pycache__
-.mypy_cache
-.venv*
-.conda/
-uv.lock
+############################
+# PyCharm / JetBrains
+############################
+# JetBrains project settings
+.idea/
+
+# 编译出的插件等
+*.iml
+
+
+############################
+# Python
+############################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env/
+.venv/
+
+# PyInstaller
+# Usually these files are written by a python script from templates
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
 .coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
 
-# IDE and editors
-.vscode
-.idea
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# Logs and temporary files
-botpy.log
-logs/
-temp
-cookies.json
+# Pyre type checker
+.pyre/
 
-# Data files
-data_v2.db
-data_v3.db
-data
-configs/session
-configs/config.yaml
-cmd_config.json
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
 
-# Plugins and packages
-addons/plugins
-packages/python_interpreter/workplace
-tests/astrbot_plugin_openai
+# Ruff
+.ruff_cache/
 
-# Dashboard
-dashboard/node_modules/
-dashboard/dist/
-package-lock.json
-package.json
-yarn.lock
 
-# Operating System
-**/.DS_Store
+############################
+# OS 文件
+############################
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
 
-# AstrBot specific
-.astrbot
-astrbot.lock
 
-# Other
-chroma
-venv/*
-pytest.ini
-AGENTS.md
-IFLOW.md
+############################
+# Logs
+############################
+*.log
+
+
+############################
+# VSCode（如不用可删除）
+############################
+.vscode/
